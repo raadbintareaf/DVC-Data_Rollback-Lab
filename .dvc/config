@@ -3,3 +3,4 @@
 ['remote "s3remote"']
     url = s3://melvin01/dvcstore
     access_key_id = AKIAQ3E7WHMDX62MMTM6
+    secret_access_key = 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
