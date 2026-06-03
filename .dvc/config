@@ -1,0 +1,5 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://melvin01/dvcstore
+    access_key_id = AKIAQ3E7WHMDX62MMTM6
