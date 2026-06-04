@@ -1,0 +1,6 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://test111neeraj/dvcstore
+    access_key_id = AKIAS75EKMGBEOJHMER5
+    secret_access_key = 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
