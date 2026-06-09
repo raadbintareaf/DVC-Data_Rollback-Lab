@@ -1,6 +1,4 @@
 [core]
     remote = s3remote
 ['remote "s3remote"']
-    url = s3://your-aws-bucket-name/dvcstore
-    access_key_id = YOUR_AWS_ACCESS_KEY
-    secret_access_key = YOUR_AWS_SECRET_KEY
+    url = s3://lec2/dvcstore
