@@ -1,0 +1,6 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://jinx.bucket/dvcstore
+    access_key_id = V3LUYQWe7fD0/ReJXIhk2Gs2zc5hMaCLWm772jce
+    secret_access_key = V3LUYQWe7fD0/ReJXIhk2Gs2zc5hMaCLWm772jce
