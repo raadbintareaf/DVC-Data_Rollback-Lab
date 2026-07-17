@@ -1,0 +1,38 @@
+[
+  {
+    "experiment": "small_random_forest_50_trees",
+    "dataset": "UCI Wine Quality Red Wine CSV",
+    "dataset_file": "winequality-red.csv",
+    "dataset_source": "https://archive.ics.uci.edu/ml/datasets/wine+quality",
+    "target_definition": "quality >= 6 is labeled as high quality",
+    "architecture": "RandomForestClassifier",
+    "n_estimators": 50,
+    "max_depth": 8,
+    "test_accuracy": 0.76875,
+    "test_log_loss": 0.456719,
+    "co2_emitted_kg": 1.4e-08,
+    "duration_seconds": 1.635,
+    "accuracy_per_kg_co2": 54910714.29
+  },
+  {
+    "experiment": "larger_random_forest_400_trees",
+    "dataset": "UCI Wine Quality Red Wine CSV",
+    "dataset_file": "winequality-red.csv",
+    "dataset_source": "https://archive.ics.uci.edu/ml/datasets/wine+quality",
+    "target_definition": "quality >= 6 is labeled as high quality",
+    "architecture": "RandomForestClassifier",
+    "n_estimators": 400,
+    "max_depth": null,
+    "test_accuracy": 0.796875,
+    "test_log_loss": 0.397959,
+    "co2_emitted_kg": 2.1e-08,
+    "duration_seconds": 2.184,
+    "accuracy_per_kg_co2": 37946428.57
+  },
+  {
+    "experiment": "comparison_summary",
+    "accuracy_gain_larger_minus_smaller": 0.028125,
+    "co2_gain_larger_minus_smaller_kg": 7e-09,
+    "interpretation": "The larger Random Forest improved accuracy, but the added CO2 should be justified against the size of that gain."
+  }
+]

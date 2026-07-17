@@ -2,3 +2,9 @@
 *.csv
 *.pkl
 __pycache__/
+.venv/
+
+# Week 10-12 Green AI lab deliverable.
+!week-10-12-ai/
+!week-10-12-ai/emissions.csv
+!week-10-12-ai/winequality-red.csv
